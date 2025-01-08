@@ -14,6 +14,8 @@ namespace JanExam
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    
+    //github repo https://github.com/PineappleGinge/JanExam
     public partial class MainWindow : Window
     {
         public MainWindow()
