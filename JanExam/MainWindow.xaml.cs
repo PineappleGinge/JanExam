@@ -89,10 +89,9 @@ namespace JanExam
             return new List<VIPTicket>() { vip1, vip2 };
         }
 
-        
-
-
-
-
+        private void lbEvents_Loaded(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

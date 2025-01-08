@@ -20,6 +20,12 @@ namespace JanExam
 
         
         // constructors
+        public Event(string name, DateTime eventDate, EventType typeofevent)
+        {
+            Name = name;
+            EventDate = eventDate;
+            TypeOfEvent = typeofevent;
+        }
 
 
         //methods
@@ -32,7 +38,7 @@ namespace JanExam
         public override string ToString()
         {
 
-            return $"{Name} - {EventDate}"
+            return $"{Name} - {EventDate}";
         }
 
 
