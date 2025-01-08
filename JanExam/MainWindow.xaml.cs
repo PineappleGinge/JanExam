@@ -91,7 +91,13 @@ namespace JanExam
 
         private void lbEvents_Loaded(object sender, RoutedEventArgs e)
         {
-            
+            lbEvents.ItemsSource = events;
+        }
+
+        private void lbTickets_Loaded(object sender, RoutedEventArgs e)
+        {
+            lbEvents.ItemsSource = ticket;
+            lbEvents.ItemsSource = vipticket;
         }
     }
 }

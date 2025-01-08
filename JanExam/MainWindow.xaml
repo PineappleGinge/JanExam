@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <ListBox x:Name="lbEvents" Margin="78,73,490,107" Loaded="lbEvents_Loaded"/>
-        <ListBox x:Name="lbTickets" Margin="434,73,38,107"/>
+        <ListBox x:Name="lbTickets" Margin="434,73,38,107" Loaded="lbTickets_Loaded"/>
         <Label x:Name="L1" Content="Events" Margin="90,38,658,366"/>
         <Label x:Name="L2" Content="Tickets" Margin="434,35,314,369"/>
         <Label x:Name="L3NumberOfTickets" Content="Number Of Tickets" Margin="400,358,280,46"/>
