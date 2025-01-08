@@ -16,6 +16,11 @@ namespace JanExam
         //constructers
 
         //methods
+        public override string ToString()
+        {
+
+            return $"{Name} - {Price:C}[Availble - {AvailableTickets}]"
+        }
     }
 
     public class VIPTicket : Ticket
@@ -28,6 +33,11 @@ namespace JanExam
         //constructors
 
         //methods
+        public override string ToString()
+        {
+            decimal total_cost = AdditionalCost + Price;
+            return $"{Name} - {total_cost:C} ({AdditionalExtras})[Availble - {AvailableTickets}]"
+        }
     }
 
 }

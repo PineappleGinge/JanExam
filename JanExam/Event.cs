@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Text;
@@ -26,6 +27,12 @@ namespace JanExam
         {
             Event @event = (Event)Name;
             return @event.CompareTo(EventDate);
+        }
+
+        public override string ToString()
+        {
+
+            return $"{Name} - {EventDate}"
         }
 
 
