@@ -15,6 +15,8 @@ namespace JanExam
         public DateTime EventDate { get; set; }
         public List<Ticket> Tickets { get; set; }
 
+        public EventType TypeOfEvent { get; set; }
+
         
         // constructors
 
@@ -22,7 +24,7 @@ namespace JanExam
         //methods
         public int CompareTo(object obj)
         {
-            Event @event;
+            Event @event = (Event)Name;
             return @event.CompareTo(EventDate);
         }
 

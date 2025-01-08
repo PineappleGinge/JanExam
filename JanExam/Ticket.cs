@@ -18,7 +18,7 @@ namespace JanExam
         //methods
     }
 
-    public class VIPTicket 
+    public class VIPTicket : Ticket
     {
         //properties
         public string AdditionalExtras { get; set; }
